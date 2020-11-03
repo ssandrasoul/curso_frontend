@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário HTML</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <style>
+        span {
+            color: red;
+            font-size: xx-large;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="produtos.html">Produtos</a>
+            <a href="contato.html">Contato</a>
+        </nav>
+    </header>
+    <section>
+        <article>
+            <pre>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                Aliquam <span>molestiae maiores eum recusandae</span> corporis 
+                velit ipsum expedita odit mollitia quisquam eos quasi saepe 
+                enim quia omnis, beatae ad corrupti!</pre>
+        </article>
+        <article>
+            <pre>Essas são algumas das Tags do 'html' 
+                &#60;H1&#62;
+            </pre>
+        </article>
+    </section>
+    <aside>
+        <ul>
+            <li>Texto 1</li>
+            <li>Texto 2</li>
+            <li>Texto 3</li>
+        </ul>
+    </aside>
+    <h1>Trabalhando com formulários HTML</h1>
+    <form action="index.html" method="POST">
+        <fieldset>
+            <legend>Dados pessoais</legend>
+            <div>
+                <label for="c_nome">Nome:</label>
+                <input type="text" name="nome" id="c_nome" required>
+            </div>
+            <div>
+                <label for="senha">Senha:</label>
+                <input type="password" name="senha" id="senha" required>
+            </div>
+            <div>
+                <label for="c_email">E-mail:</label>
+                <input type="email" name="email" id="c_email" required placeholder="nome@dominio.com">
+            </div>
+            <div>
+                <label for="c_dtanasc">Data Nascimento:</label>
+                <input type="date" name="dtanasc" id="c_dtanasc" required>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Forma de contato</legend>
+            <p>Como você prefere que seja realizado nosso retorno ?</p>
+            <label for="">
+                <input type="checkbox" name="" id="" value="email"> e-mail
+            </label>
+            <label for="">
+                <input type="checkbox" name="" id="" value="whatsapp"> whatsapp
+            </label>
+            <label for="">
+                <input type="checkbox" name="" id="" value="telefone"> telefone
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Mensagem</legend>
+            <label for="tipomensagem">Tipo mensagem:</label>
+            <select name="tipomensagem" id="tipomensagem">
+                <option value="reclamacao">Reclamação</option>
+                <option value="elogio">Elogio</option>
+                <option value="duvida">Duvida</option>
+            </select>
+            <div>
+                <label for="optreclamacao">Reclamação
+                    <input type="radio" name="tipocontato" id="optreclamacao" 
+                    value="reclamacao">
+                </label>
+                <label for="optelogio"> Elogio
+                    <input type="radio" name="tipocontato" id="optelogio" 
+                    value="elogio">
+                </label>
+                <label for="optduvida"> Duvida
+                    <input type="radio" name="tipocontato" id="optduvida" 
+                    value="duvida">
+                </label>
+                <br>
+                <label for="mensagem">Mensagem:</label>
+                <textarea name="" id="mensagem" cols="30" rows="10" placeholder="Digite sua menagem aqui......"></textarea>
+            </div>
+        </fieldset>
+        <div>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </div>
+    </form>
+    <footer>
+        &copy; Criado por DIGICAD - Alunos
+    </footer>
+</body>
+
+</html>

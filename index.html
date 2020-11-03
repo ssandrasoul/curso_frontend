@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Página principal</title>
+        <link rel="stylesheet" href="css/estilo.css">
+    </head>
+
+    <body>
+        <div class="conteudo" id="inicioPagina">
+            <div class="menu">
+                <ul class="listaEstilizada">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="produtos.html">Produtos</a>
+                    </li>
+                    <li>
+                        <a href="contato.html">Contato</a>
+                    </li>
+                </ul>
+            </div>
+
+            <h1>Página inicial do meu projeto</h1>
+            <p>Está a página inicial do curso de Front End da <span>DIGICAD</span></p>
+            <p>que está sendo ministrado pelo professor <span class="destaque">Alexandre Atanes</span> </p>
+            <hr>
+            <h2>Conteúdo do curso</h2>
+            <ul>
+                <li>
+                    <a href="#descricao-HTML">HTML5</a>
+                </li>
+                <li>
+                    <a href="#descricao-CSS">CSS3</a>
+                </li>
+                <li>
+                    <a href="#descricao-Bootstrap">Bootstrap</a>
+                </li>
+                <li>
+                    <a href="#descricao-Git">Git</a>
+                </li>
+                <li>
+                    <a href="#descricao-JavaScript">JavaScript</a>
+                </li>
+                <li>REACT</li>
+                <li>REACT Native</li>
+            </ul>
+            <hr id="descricao-HTML">
+            <h2>
+                <a href="#inicioPagina">Menu - </a>
+                HMTL5
+            </h2>
+            <p class="texto-justificado">A HTML, como dito anteriormente, é baseada em Hipertexto. Hipertexto é um
+                conjunto de informações,
+                podendo ser texto, imagem, vídeo, áudio, etc., onde seu acesso se dá através de referências específicas,
+                chamadas de hiperligações (hyperlinks, em inglês). Estas hiperligações interconectam os vários conjuntos
+                de informações espalhados pela Rede Mundial de Computadores, apresentando ao usuário a informação que os
+                desenvolvedores criaram, e que o usuário procura.
+                Para que este compartilhamento de informações fosse facilmente criado, disponibilizado e acessado pelo
+                mundo inteiro, foi criada uma linguagem universal, a HTML. Sua história inicia-se em 1980 com Tim
+                Berners-Lee, engenheiro e cientista da computação britânico que criou um conjunto de ferramentas com o
+                intuito de facilitar a comunicação e compartilhamento de pesquisas entre ele e seus colegas. Este
+                conjunto de ferramentas, em combinação com a internet pública, criada alguns anos antes, e a criação do
+                Mosaic, navegador desenvolvido por Marc Andeerssen na década de 90, deu início a um novo “universo” de
+                possibilidades, despertando o interesse do mundo.
+                A partir daí, a HTML foi sendo utilizada por desenvolvedores, e aperfeiçoada com a criação de novas
+                versões, mantendo sempre suas especificações graças ao W3C, com auxílio dos fabricantes de softwares. Em
+                1997, a W3C designou um grupo de trabalho focado no desenvolvimento de uma especificação da HTML, a
+                XHTML, uma reformulação baseada em XML (Extensible Markup Language ou Linguagem de Marcação Estendida)
+                que tornaria a HTML mais simples para ser processada e entendida. Entretanto, com a publicação da HTML5
+                em 2014, a XHTML viu a maioria de sua utilização se tornar obsoleta. A versão mais atual da HTML é a
+                versão 5.2, publicada em 2017.</p>
+            <hr id="descricao-CSS">
+            <h2>Cascading Style Sheets (CSS)</h2>
+            <p class="texto-justificado">Cascading Style Sheets (CSS), ou Folhas de Estilo em Cascata em português, é a
+                linguagem utilizada para
+                formatar as informações fornecidas pela HTML, transformando o conteúdo do documento em um formato com
+                uma
+                melhor apresentação e utilização para o usuário. Para isso, a CSS cria um link para uma página com os
+                estilos, em vez de se ter os estilos dentro do próprio documento HTML. Isto facilita realizar
+                modificações, pois
+                pode-se modificar apenas um arquivo, e possibilita também aplicar os mesmos estilos a diferentes
+                documentos.
+                Quando não aplicamos nenhuma técnica de formatação ao nosso documento HTML, seu conteúdo é apresentado
+                ao usuário com a formatação padrão do navegador, a qual pode variar de navegador para navegador, criando
+                o primeiro problema: quando criamos nossa página, nós a montamos de maneira a transmitir uma informação
+                da
+                melhor forma possível, e queremos que todos os usuários possam ter acesso a essa experiência de forma
+                igual,
+                independentemente do navegador que utilizam. Daí a importância de utilizarmos CSS para que nossa página
+                não só fique bem
+                montada, mas também uniforme entre os navegadores. E aí entra outro cuidado: cada navegador pode ter um
+                suporte diferente
+                aos recursos do CSS, epor isso mais uma vez é importante que se verifique a compatibilidade de cada
+                navegador aos recursos CSS
+                que você utilizar.
+                A W3C também cuida da padronização da CSS, e traz diversas orientações sobre o tema em suas publicações.
+            </p>
+            <hr id="descricao-Bootstrap">
+            <h2>Bootstrap</h2>
+            <p class="texto-justificado">
+                Bootstrap é um framework gratuito e open-source (código fonte aberto) de front-end muito popular usado
+                para criar páginas e aplicações web responsivas. Ele inclui estilos e classes CSS pré-definidos e
+                funcionalidades JavaScript. Também pode dividir o layout verticalmente em até 12 colunas (sistema grid),
+                de maneira responsiva para o uso de:
+            <ul class="listaEstilizada">
+                <li>
+                    ✓ Botões
+                </li>
+                <li>
+                    ✓ Imagens
+                </li>
+                <li>
+                    ✓ Tabelas
+                </li>
+                <li>
+                    ✓ Modais
+                </li>
+                <li>
+                    ✓ Formulários
+                </li>
+                <li>
+                    ✓ Menu de navegação
+                </li>
+            </ul>
+            Para adicionar o Bootstrap ao seu projeto, basta usar, dentro de sua tag
+
+            &#60;head&#62;, o código:
+            &#60;link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+            integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+            crossorigin="anonymous"&#62;
+            </p>
+            <hr id="descricao-JavaScript">
+            <h2>JavaScript</h2>
+            <p class="texto-justificado">
+                A linguagem de programação Javascript foi criada em 1995 pelo programador americano Brendan Eich, quando
+                trabalhava na Netscape Communications Corporation. A linguagem foi criada para o navegador da Netscape e
+                ficou conhecida como LiveScript. Porém, pouco tempo depois, o time mudou o nome para JavaScript para
+                retratar o suporte de seu navegador à linguagem Java. Mas não se confunda, Java e JavaScript são
+                linguagens completamente diferentes, onde será mostrado com mais detalhes posteriormente, a semelhança
+                em seus nomes se deu a uma estratégia de marketing da empresa.
+                Em 1996, a importância do JavaScript cresceu tanto que a linguagem foi passada para um órgão de padrões
+                de scripts internacional chamado ECMA, acrônimo para European Computer Manufactures Association, o qual
+                é responsável pelo desenvolvimento e manutenção da linguagem até hoje. O nome oficial da linguagem foi
+                dado como ECMAScript, mas as pessoas continuam a chamando de JavaScript.
+            </p>
+            <hr id="descricao-Git">
+            <h2>Git</h2>
+            <p class="texto-justificado">
+                Nos dias atuais, devido a necessidade garantir um processo seguro de desenvolvimento de aplicações web,
+                o gerenciamento dos códigos fonte torna-se uma questão essencial para qualquer desenvolvedor. Armazenar,
+                comparar, reter arquivos antigos são tarefas essenciais no processo de criação/desenvolvimento de uma
+                aplicação.
+                No mundo da Tecnologia da Informação, o compartilhamento de informações é um processo que ajuda as
+                partes (desenvolvedores) resolver o problema como um todo (projeto). Com isso, tem-se ter um local ou
+                uma ferramenta que faça esse gerenciamento com simplicidade e eficiência, facilitando a troca de
+                informações.
+                Todo software depois de criado possui versões. Essas versões são atualizadas periodicamente. Controlar
+                essas versões é fundamental para um bom desenvolvimento de uma aplicação. Um controle de versões permite
+                que você faça o registro das mudanças/atualizações de um arquivo ou um conjunto de
+                alterações/modificações, recuperar, caso necessário, a versões anteriores da aplicação, entre outras
+                tarefas.
+                No gerenciamento de controle de versões usa-se uma ferramenta que executa tarefas com arquivos como: a)
+                arquivos possam ser revertidos para uma versão anterior ou estado anterior; b) permite o desenvolvedor
+                fazer comparações nas versões ao longo do processo de desenvolvimento; c) permite o desenvolvedor fazer
+                uma checkup nos últimos arquivos que causaram problemas; d) permite verificar desenvolvedores que, por
+                ventura, tenha causado bugs. Outro benefício muito importante está relativo a problemas que podem
+                acontecer com seu computador. Nesse caso, não há o que temer, pois caso o seu computador venha se
+                danificado, não se perderá, pois tudo armazenado na Internet, e proporciona uma grande garantia e
+                segurança nos projetos.
+            </p>
+            <footer class="destaque">
+                &copy; Criado por DIGICAD - Alunos
+            </footer>
+        </div>
+    </body>
+
+</html>

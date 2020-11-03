@@ -1,0 +1,55 @@
+body {
+  font-size: 20px;
+}
+h1 {
+  font-size: 200%;
+}
+h1,
+h2 {
+  text-shadow: 3px 3px 5px#00B4D8;
+  color: #03045e;
+}
+p {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+img {
+  width: 150px;
+  height: 150px;
+  border-radius: 10% 50% 10% 50%;
+}
+hr {
+  border: solid 2px #0077B6;
+  width: 80%;
+}
+.p_justificado {
+  text-align: justify;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.nome_orquidia {
+  text-decoration: salmon;
+  font-style: italic;
+  font-weight: bold;
+}
+.vanila {
+  background-color: red;
+}
+.vanila:hover{
+    background-color: yellow;
+    font-size: xx-large;
+}
+.centralizado {
+  text-align: center;
+}
+.caixaAlta {
+  text-transform: uppercase;
+  font-family: 'Grenze Gotisch', cursive;
+}
+.direita {
+    margin-inline-end: 0;
+}
+
+.esquerda{
+    margin-inline-start: 0;
+}

@@ -1,0 +1,53 @@
+button:hover {
+    background-color: darkturquoise;
+}
+
+input:focus {
+    background-color: darkturquoise;
+}
+
+.container {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+
+h1 {
+    border: 2px double;
+    background-color: cornflowerblue;
+}
+
+.painel-label {
+    display: flex;
+    padding-top: 5px;
+}
+
+.label-formatada {
+    border: cornflowerblue 2px solid;
+    color: cornsilk;
+    background-color: darkslategray;
+    width: 25%;
+    height: 25px;
+    text-align: left;
+    padding-top: 5px;
+    padding-left: 5px;
+    display: flex;
+}
+
+input[type=text] {
+    display: inline-block;
+    width: 75%;
+    border: cornflowerblue 2px solid;
+    vertical-align: middle;
+}
+
+button {
+    color: #fff;
+    background-color: #0062cc;
+    border-color: #005cbf;
+    font-weight: 400;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 10px;
+}
